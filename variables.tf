@@ -4,6 +4,7 @@ variable "region" {
 
 variable "bucket_name" {
   description = "The name of the S3 bucket to create."
+   default = "making-s3-bucket-from-terraform"
 }
 
 variable "tags" {
